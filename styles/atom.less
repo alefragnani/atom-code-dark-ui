@@ -1,0 +1,39 @@
+@import "ui-variables";
+
+* {
+	box-sizing: border-box;
+}
+
+atom-workspace {
+  background-color: @app-background-color;
+
+	//AFM - https://discuss.atom.io/t/rearrange-status-bar-to-the-bottom-panel/18597
+  height: calc(~"100% - " (@component-line-height + 1px));
+
+	// .status-bar {
+  // 	height: 2.4em;
+	// }
+}
+
+.scrollbars-visible-always {
+  /deep/ ::-webkit-scrollbar {
+    //width: 10px;
+    //height: 10px;
+	  //AFM - https://discuss.atom.io/t/change-the-color-and-width-of-editors-sidebar/18545/9
+		width: 10px;
+		height: 10px;
+  }
+
+  /deep/ ::-webkit-scrollbar-track,
+  /deep/ ::-webkit-scrollbar-corner {
+		//AFM
+    //background: @scrollbar-background-color;
+    background: #252526;
+  }
+
+  /deep/ ::-webkit-scrollbar-thumb {
+    background: @scrollbar-color;
+    border-radius: 5px;
+    box-shadow: 0 0 1px black inset;
+  }
+}
