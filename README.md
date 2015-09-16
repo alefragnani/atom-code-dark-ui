@@ -6,6 +6,6 @@ I created this theme mostly to unify my `styles.less` file that contained a few 
 
 ![Screenshot](https://raw.githubusercontent.com/alefragnani/atom-code-dark-ui/master/screenshot.png)
 
-## State of Development
+## Development Status
 
 I'm new to CSS and LESS so you will find some bugs. The theme is _in early development_, so be patient :)
