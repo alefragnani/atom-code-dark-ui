@@ -4,7 +4,7 @@ A dark UI theme mixing **Atom Dark** and **Visual Studio Code** elements.
 
 I created this theme mostly to unify my `styles.less` file that contained a few visual tweaks. And with **Visual Studio Code** launch, I  decided to apply some elements that I enjoyed, in **Atom**. So here it is :)
 
-![Screenshot](screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/alefragnani/atom-code-dark-ui/master/screenshot.png)
 
 ## Stage of Development
 
