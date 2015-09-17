@@ -6,13 +6,24 @@
 
 atom-workspace {
   background-color: @app-background-color;
-
 	//AFM - https://discuss.atom.io/t/rearrange-status-bar-to-the-bottom-panel/18597
   height: calc(~"100% - " (@component-line-height + 1px));
+}
 
-	// .status-bar {
-  // 	height: 2.4em;
-	// }
+status-bar{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	//background-color: @tool-panel-background-color;
+	background-color: #007ACC;//@tool-panel-background-color;
+	color: white;
+}
+
+// Remove filename from StatusBar
+status-bar .inline-block.file-info {
+  visibility: hidden;
+  width: 0px;
 }
 
 .scrollbars-visible-always {
