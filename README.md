@@ -6,19 +6,14 @@ I created this theme mostly to unify my `styles.less` file that contained a few 
 
 ![Screenshot](https://raw.githubusercontent.com/alefragnani/atom-code-dark-ui/master/screenshot.png)
 
-## Known Issue
+## Features
 
-The StatusBar is not working correctly. You must put this piece of code on your Stylesheet. To do so open `File / Open Your Stylesheet` and add this code.
-
-    status-bar {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: #007ACC;
-      color: white;
-    }
+* The Status Bar occupies the entire bottom of the window, not only the editor, and has the same colors
+* The Tooltips are gray
+* The Filename was removed from the status bar
+* The Command Pallete list and matching characters follows the VSCode colors
+* The Code Folding is always on
 
 ## Development Status
 
-I'm new to CSS and LESS so you will find some bugs. The theme is _in early development_, so be patient :)
+I'm new to CSS and LESS so you may find some issues. The theme is _in development_, so please be patient :)
