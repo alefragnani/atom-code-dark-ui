@@ -1,3 +1,15 @@
+## 0.5.0 - License updated
+* License updated
+
+## 0.4.1 - Small fix
+* Fixes #1
+
+## 0.4.0 - Readme updated
+* Readme updated
+
+## 0.3.0 - Screenshot Updated
+* Screenshot Updated
+
 ## 0.2.0 - Small updates
 * Command Palette and Status Bar where updated to match VSCode color
 * Removed filename from StatusBar

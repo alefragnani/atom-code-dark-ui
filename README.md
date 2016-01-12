@@ -14,6 +14,6 @@ I created this theme mostly to unify my `styles.less` file that contained a few 
 * The Command Pallete list and matching characters follows the VSCode colors
 * The Code Folding is always on
 
-## Development Status
+## License
 
-I'm new to CSS and LESS so you may find some issues. The theme is _in development_, so please be patient :)
+[MIT](LICENSE.md) &copy; Alessandro Fragnani
