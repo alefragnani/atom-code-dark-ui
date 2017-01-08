@@ -1,7 +1,7 @@
 @import "ui-variables";
 @import "ui-mixins";
 
-atom-text-editor[mini], atom-text-editor[mini]::shadow {
+atom-text-editor[mini], atom-text-editor[mini].editor {
   color: @text-color-highlight;
   background-color: @input-background-color;
   border: 1px solid @input-border-color;
@@ -13,13 +13,13 @@ atom-text-editor[mini], atom-text-editor[mini]::shadow {
   .selection .region { background-color: lighten(@input-background-color, 10%); }
 }
 
-atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused::shadow {
+atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused.editor {
   background-color: lighten(@input-background-color, 5%);
   .selection .region { background-color: desaturate(@background-color-info, 50%); }
 }
 
 // FIXME: these should go in syntax themes?
-atom-text-editor, atom-text-editor::shadow {
+atom-text-editor, atom-text-editor.editor {
   //AFM
   background-color: #1E1E1E;
 
@@ -38,14 +38,14 @@ atom-text-editor, atom-text-editor::shadow {
 }
 
 //AFM - https://discuss.atom.io/t/enable-or-disable-highlight-focused-line/2712/9
-atom-text-editor.is-focused::shadow {
+atom-text-editor.is-focused.editor {
   .line.cursor-line, .line-number.cursor-line-no-selection {//, .region {
     background-color: rgb(45, 45, 45, 0.2);
   }
 }
 
 //AFM
-atom-text-editor::shadow .wrap-guide {
+atom-text-editor.editor .wrap-guide {
 //  width: 3px;
 //  background-color: red;
   box-sizing: border-box;
@@ -56,7 +56,7 @@ atom-text-editor::shadow .wrap-guide {
 // .tab-bar, atom-panel-container.bottom{
 //   z-index: 2;
 // }
-atom-text-editor::shadow{
+atom-text-editor.editor {
   .gutter{
     z-index: 1;
     box-shadow: 0.5rem 0 2rem hsl(0, 0%, 5%);
