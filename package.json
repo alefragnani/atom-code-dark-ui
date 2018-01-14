@@ -1,7 +1,7 @@
 {
   "name": "code-dark-ui",
   "theme": "ui",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "A dark UI theme mixing Atom Dark and Visual Studio Code elements.",
   "keywords": [
     "ui",
