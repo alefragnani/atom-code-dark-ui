@@ -1,5 +1,7 @@
 # Code Dark UI theme
 
+> Following Atom archiving in December 15, 2022, this package will be archived as well. Learn more in their [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)
+
 A dark UI theme mixing **Atom Dark** and **Visual Studio Code** elements.
 
 Works great with my [Code Dark Syntax theme](https://atom.io/themes/code-dark-syntax) :smile:
